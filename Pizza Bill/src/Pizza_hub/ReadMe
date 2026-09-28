@@ -1,0 +1,99 @@
+
+
+*********** PIZZA BILL SYSTEM ***********
+          =====================
+
+
+*variables
+*Methods
+*scanner class
+*Inheritance
+*Switch case
+*if else
+*method calling inside method
+**********************************
+
+* In this Project we are going to see how to create a Pizza bill
+
+
+1) User run the application and see 2 options
+
+   *1: Veg Pizza
+   *2: non-veg Pizza
+   
+   
+   if Customer press 1 for veg it will show veg pizza list 
+   or user press 2 for non-veg pizza it will show non-veg pizza list
+   
+   
+   //-----------------------------------------------------------------------
+   
+  *In Veg Pizza we declare 3 type of pizza : corn Pizza , Panner Pizza , cheese pizza 
+  
+  *for every pizza we declare seprate methods in PizzaSystem class 
+  
+  *same for Non-veg Pizza  
+  
+  //----------------------------------------------------------
+  
+  *After user select the pizza case will be executed in case we declare a method 
+  
+  In a method{ 
+  -> declare price of pizza
+  -> declare variable = pizza price  (add variable on instance level)
+ -> call a method add extra cheese 
+ -> call a method add extra toppings 
+ ->call a method bill
+ }
+ 
+ ************(same for all case method just ,name change and price change )***********
+ 
+ Extra Cheese method{
+ 
+ in this method if user want to add some extra cheese we give option by using scanner class
+ scanner class
+ case 1 -> true
+ case 2 -> false
+ 1 for yes 
+ 2 for no 
+ if user select yes then (pizza price + extra cheese price = pizza prize  )(add boolean variable if true)
+ if no (nothing will be added in bill)  (false)
+ 
+ }
+ 
+ //----------------------
+ 
+ Extra Toppings method {
+ 
+ in this method if user want to add some extra toppings  we give option by using scanner class
+ scanner class
+ case 1 -> true
+ case 2 -> false
+ 1 for yes 
+ 2 for no 
+ if user select yes then (pizza price + extra topping price = pizza prize  )(use same boolean variable if true)
+ if no (nothing will be added in bill)  
+ 
+ 
+ }
+ //------------------
+ 
+ Last method is 
+ 
+ Bill method{
+ 
+ if  cheese added
+ (price = price + cheese)
+ 
+ if toppings added
+ (price = price + toppings)
+ 
+ 1st print pizza price :
+ 2nd if add cheese price :
+ 3rd if add toppings price:
+ 4th total bill:
+ }
+ 
+ 
+  
+  
